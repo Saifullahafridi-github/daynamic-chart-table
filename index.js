@@ -13,6 +13,9 @@ function Result(){
         headtwotwo.innerHTML+=`${Requriedtwo} x ${i} = ${Requriedtwo*i} <br>`
     }
 }
+else{
+    headtwotwo.innerHTML=" input value in correct way"
+}
 }
     //  function daynamic table end
     // function daynamic chart start
