@@ -1,0 +1,13 @@
+button{
+    float: left;
+    padding: 5px 20px;
+    background: rgb(222, 24, 24);
+    color: white;
+    margin-inline: 10px;
+    border: 2px;
+    border-radius: 3px;
+
+}
+body{
+    background-image:url("65.webp") ;
+}

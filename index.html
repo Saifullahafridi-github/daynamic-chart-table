@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <div>   
+    <h1>Daynamic Table Printer</h1>
+    <label for="">Start</label>
+    <input type="number" id="Start">
+    <label for="">End</label>
+    <input type="number" id="End"><br><br>
+    <label for="">Requried Table</label>
+    <input type="number" id="Requried">
+    <button onclick="Result()">print result</button>
+    <h2 id="head22">table result</h2>
+</div>
+<!-- <h1>daynamic table end and daynamic chart start</h1> -->
+<div>
+    <h1>Assalam o Alaikum! 
+        How are you ?
+        My veiwer....
+    </h1>
+    <p> Let's start work together!</p>
+
+    <h1 id="heading"></h1>
+    <button onclick="addone()" >Add one</button>
+    <!-- add one code end -->
+    <!-- <h1 id="head2"></h1> -->
+    <button onclick="previous()">previous</button>
+    <button onclick="Reset()">Reset</button><br><br>
+    <h3 id="head3">table chart</h3>
+    <button onclick="table2()">table2</button> <br><br>
+    <h2 id="head2">daynamic  chart</h2>
+    <button onclick="daynamic(num++)">daynamic</button>
+    <button onclick="daynamicprevious(num--)">daynamic previous</button><br><br>
+    <h4>presented by afridi group</h4>
+
+</div>
+<div>
+    <h1>ON Change table</h1>
+    <label for="">Table NO</label>
+    <input type="number" onchange="change()" id="onchange">
+    <p id="p">onchange table print</p>
+    <button onclick="clear()">Clear</button>
+</div>
+
+
+
+    <script src="index.js"></script>
+</body>
+</html>
